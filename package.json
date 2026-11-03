@@ -1,0 +1,9 @@
+{
+  "name": "link-preview",
+  "version": "0.2.0",
+  "description": "Fetches a web page and returns its title, description and preview image for chat and CMS link cards.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "start": "node src/server.js", "test": "node --test test/*.test.js" },
+  "dependencies": { "express": "^4.21.0" }
+}
